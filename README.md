@@ -56,7 +56,7 @@ Linux... Well you're on linux, you'll figure something out, I guess...
 ### Blynk:
 
 You can clone the setup via this qr code 
-<img scr="https://github.com/Schaggo/ESP-3D-Scanner/blob/master/ESP%203D-Scanner/pics/3d_SCANNER%20BLYNK.PNG" height="400">
+<img scr="https://github.com/Schaggo/ESP-3D-Scanner/blob/master/ESP%203D-Scanner/pics/3d_SCANNER%20BLYNK.PNG" width="400">
 ![BLYNK CLONE](https://github.com/Schaggo/ESP-3D-Scanner/blob/master/ESP%203D-Scanner/pics/3d_SCANNER%20BLYNK.PNG)
 - Download the BLYNK app to your smartphone
 - Open a new project and add a Real Time Clock, a button and a slider.
