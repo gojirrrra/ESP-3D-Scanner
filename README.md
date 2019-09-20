@@ -62,7 +62,7 @@ Likethe original project this was done in PlatformIO for VisualStudio Code. Chec
 
 FTP Server: 
 I set up an old macbook that was collecting dust. The installed OS (el Capitan) still has native support for FTP and was the quickest solution. 
-Windows users might want to try fileZilla server or other free ftp server software
+Windows users might want to try fileZilla server or other free ftp server software.
 Linux... Well you're on linux, you'll figure something out, I guess...
 
 Photogrammetry Software: 
