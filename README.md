@@ -26,7 +26,7 @@ FTDI-Programmer
 
 Power supply: 5V,  20A <- seems overkill but keeps room for ~20 units and overhead
 ![Here 5V, 40A](
-
+<img src="ESP%203D-Scanner/pics/IMG_2611%202.jpg" width="600">
 
 20+ dupont cables female to female preferably in red and black
 
