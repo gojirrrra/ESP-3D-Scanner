@@ -90,7 +90,7 @@ or for better understanding:
 
 ### Code:
 
-""
+```
 char auth[] = ""; //1
 //char auth[] = ""; //2
 //char auth[] = ""; //3
@@ -114,7 +114,7 @@ char ftp_pass[]   = "";
 // Camera buffer, URL and picture name
 camera_fb_t *fb = NULL;
 String pic_name = "Desktop/SCAN/Module1 -"; // example for folder corresponding on ftp server with Module name / change accordingly
-""
+```
 
 - Set char auth[] for each token created in BLYNK
 - Fill in your FTP Server and WiFi credentials
