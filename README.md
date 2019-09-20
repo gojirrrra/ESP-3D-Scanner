@@ -31,7 +31,7 @@ The original code was slighly changed so:
 
 - 1x Cardboard or similar: 60cm by >20cm 
 
--- Arrange all units on the cardboard. 
+### How to Arrange all units on the cardboard. 
 
 <img src="ESP%203D-Scanner/pics/IMG_2612.jpg" width="800">
 
@@ -44,9 +44,9 @@ The original code was slighly changed so:
 
 <img src="ESP%203D-Scanner/pics/IMG_2613.jpg" width="800">
 
-20+ dupont cables female to female preferably in red and black
+- 20+ dupont cables female to female preferably in red and black
 
-Test code with one. If it works, this is wiring for 10 Units:
+*Test code with one. If it works, this is wiring for 10 Units:
 
 Wall outlet ---220V, 10A--- PSU (connector line one/ fist V-, first V+) --- 5V, 10A --- Connector --- (solder 10 dupont cables to each ground and power of the connector.) single dupont connecton --- ESP
 
