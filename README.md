@@ -61,6 +61,11 @@ I set up an old macbook that was collecting dust. The installed OS (el Capitan) 
 Windows users might want to try fileZilla server or other free ftp server software
 Linux... Well you're on linux, you'll figure something out, I guess...
 
+Photogrammetry Software: 
+
+My software of choise is reality capture. It comes at 370$ for indie devs but is free for students.
+There is also a ton of free other sofware - google will help you out.
+
 ## Instructions:
 
 ### Blynk:
@@ -84,6 +89,32 @@ or for better understanding:
 - Change slider to V10 with range from 0 to 4 // this might change in later versions
 
 ### Code:
+
+""
+char auth[] = ""; //1
+//char auth[] = ""; //2
+//char auth[] = ""; //3
+//char auth[] = ""; //4
+//char auth[] = ""; //5
+//char auth[] = ""; //6
+//char auth[] = ""; //7
+//char auth[] = ""; //8
+//char auth[] = ""; //9
+//char auth[] = ""; //10
+
+// Your WiFi credentials.
+char ssid[] = "";
+char pass[] = "";
+
+// FTP Server credentials
+char ftp_server[] = "";
+char ftp_user[]   = "";
+char ftp_pass[]   = "";
+
+// Camera buffer, URL and picture name
+camera_fb_t *fb = NULL;
+String pic_name = "Desktop/SCAN/Module1 -"; // example for folder corresponding on ftp server with Module name / change accordingly
+""
 
 - Set char auth[] for each token created in BLYNK
 - Fill in your FTP Server and WiFi credentials
