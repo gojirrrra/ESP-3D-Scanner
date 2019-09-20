@@ -3,13 +3,13 @@
 Little disclaimer: I'm a total noob. But I figured this is actually so easy, other total beginners might give it a shot, thus it might be a little over explained for some.
 
 This project is a riff on https://github.com/ldab/ESP32-CAM-Picture-Sharing
-Thank you, ldab! (Is there a way to poke/mark users on github?) All prais belongs to you. Your license is included here. 
+Thank you, ldab! (Is there a way to poke/mark users on github?) All praise belongs to you. Your license is included here. 
 
 So far the scanner works with 10 Units - hardware is described for 10. 
 
 The original code was slighly changed so:
 
-- Units don't sleep and are ready to take a picture
+- Units don't sleep and are ready to take a picture when powered
 - enable  / dim flash led
 - Image quality set to max
 - image view in BLYNK currently disabled
@@ -20,26 +20,27 @@ The original code was slighly changed so:
 
 ### Hardware: 
 
-10x ESP-32s with OV2640 Cam (AI Thinker) 
+- 10x ESP-32s with OV2640 Cam (AI Thinker) 
 
-1x FTDI-Programmer 
+- 1x FTDI-Programmer 
 
-1x Power supply: 5V,  20A <- seems overkill but keeps room for ~20 units and overhead
+- 1x Power supply: 5V,  20A <- seems overkill but keeps room for ~20 units and overhead
 
-1x Cardboard or similar: 60cm by >20cm 
 
 <img src="ESP%203D-Scanner/pics/IMG_2611%202.jpg" width="600">
 
-Arrange all units on the cardboard. 
+- 1x Cardboard or similar: 60cm by >20cm 
+
+-- Arrange all units on the cardboard. 
 
 <img src="ESP%203D-Scanner/pics/IMG_2612.jpg" width="800">
 
 
 # !!! Be aware! If you use wrong cables you might burn down your house! 5v seems harmless but the amps arent! Go and ask an adult like me ;)!!!
 
-## Cables: Take care which cables you use from mains to psu and psu to connector. All elements like switches have to be rated for the amps you use
+## Cables: Take special care which cables you use from mains to psu and psu to connector. All elements like switches have to be rated for the amps you use!
 
-## Connector: You need some high amp connector that doesnt go poof. I used a XT60.
+## Connector: You also need some high amp connector that doesnt go poof. I used a XT60.
 
 <img src="ESP%203D-Scanner/pics/IMG_2613.jpg" width="800">
 
