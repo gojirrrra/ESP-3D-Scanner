@@ -25,6 +25,7 @@ ESP-32s with OV2640 Cam (AI Thinker)
 FTDI-Programmer 
 
 Power supply: 5V,  20A <- seems overkill but keeps room for ~20 units and overhead
+![Here 5V, 40A](
 
 
 20+ dupont cables female to female preferably in red and black
@@ -42,7 +43,7 @@ Wall outlet ---220V, 10A--- PSU (connector line one/ fist V-, first V+) --- 5V, 
 
 ### Software:
 
-As the original project this was done in PlatformIO for VisualStudio Code. 
+As the original project this was done in PlatformIO for VisualStudio Code. Check out ldab's git for instructions. You might have to update pathon to its latest version if you get stuck. 
 (Its rather buggy, but has its benefits (intellisense)).
 
 FTP Server: 
@@ -55,6 +56,7 @@ Linux... Well you're on linux, you'll figure something out, I guess...
 ### Blynk:
 
 You can clone the setup via this qr code 
+<img scr="https://github.com/Schaggo/ESP-3D-Scanner/blob/master/ESP%203D-Scanner/pics/3d_SCANNER%20BLYNK.PNG" height="400">
 ![BLYNK CLONE](https://github.com/Schaggo/ESP-3D-Scanner/blob/master/ESP%203D-Scanner/pics/3d_SCANNER%20BLYNK.PNG)
 - Download the BLYNK app to your smartphone
 - Open a new project and add a Real Time Clock, a button and a slider.
