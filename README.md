@@ -1,10 +1,10 @@
 # ESP-3D-Scanner
-Proof of concept for an array of ESP32's used as a photogrammetry 3D-Scanner
+### Proof of concept for an array of ESP32's used as a photogrammetry 3D-Scanner
 
 This project is a riff on https://github.com/ldab/ESP32-CAM-Picture-Sharing
-Thank you, ldab! (Is there a way to poke/mark users on github?) Your licens should be included here.
+Thank you, ldab! (Is there a way to poke/mark users on github?) All prais belongs to you. Your licens should be included here. 
 
-So far it works with 10 Units - hardwawre is described for 10
+So far it works with 10 Units - hardwawre is described for 10 - 20 more are ordered. 
 
 Little disclaimer: I'm a total noob. But I fugured this is actually so easy, total beginners might give it a shot, so it might be a little over explained for some.
 
@@ -54,7 +54,7 @@ Linux... Well you're on linux, you'll figure something out, I guess...
 
 ### Blynk:
 
-You can clone the 
+You can clone the setup via this qr code (https://github.com/Schaggo/ESP-3D-Scanner/blob/master/ESP%203D-Scanner/pics/3d_SCANNER%20BLYNK.PNG)
 - Download the BLYNK app to your smartphone
 - Open a new project and add a Real Time Clock, a button and a slider.
 - in your project settings setup 10 devices (All ESP32 Dev Board, connection type WiFi)
