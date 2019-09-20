@@ -11,13 +11,14 @@ Little disclaimer: I'm a total noob. But I fugured this is actually so easy, tot
 The code was slighly changed so:
 
 - Units don't sleep
-- Units upload to local ftp
-- Image quality at max
+- exable / dim flash led
+- Image quality max
 
 
-How to:
 
-Hardware: 
+##How to:
+
+###Hardware: 
 
 ESP-32s with OV2640 Cam (AI Thinker) 
 
@@ -39,7 +40,7 @@ Test code with one. If it works, this is wiring for 10 Units:
 Wall outlet ---220V, 10A--- PSU (connector line one/ fist V-, first V+) --- 5V, 10A --- Connector --- (solder 10 dupont cables to each ground and power of the connector.) single dupont connecton --- ESP
 
 
-Software:
+###Software:
 
 As the original project this was done in PlatformIO for VisualStudio Code. 
 (Its rather buggy, but has its benefits (intellisense)).
@@ -49,10 +50,11 @@ I set up an old macbook that was collecting dust. The installed OS (el Capitan) 
 Windows users might want to try fileZilla server or other free ftp server software
 Linux... Well you're on linux, you'll figure something out, I guess...
 
-Instructions:
+##Instructions:
 
-Blynk:
+###Blynk:
 
+You can clone the 
 - Download the BLYNK app to your smartphone
 - Open a new project and add a Real Time Clock, a button and a slider.
 - in your project settings setup 10 devices (All ESP32 Dev Board, connection type WiFi)
@@ -63,7 +65,7 @@ Blynk:
 - Change the Button output to V5 with mode push with target device = tag
 - Change slider to V10 with range from 0 to 4 // this might change in later versions
 
-Code:
+###Code:
 
 - Set char auth[] for each token created in BLYNK
 - Fill in your FTP Server and WiFi credentials
@@ -76,7 +78,7 @@ Code:
 You're done.
 Upload the code to the ESP, start FTP Server and Blynk, hit the button in the app. You should see a file at your set location with a timestamp in its name. Wait till the file size stops increasing. Check the picture for artifacts and errors.
 
-TODO: 
+##TODO: 
 
 - Energy optimisation. The ESP's are a little greedy right now.
 
