@@ -1,18 +1,18 @@
 # ESP-3D-Scanner
 ### Proof of concept for an array of ESP32's used as a photogrammetry 3D-Scanner
+Little disclaimer: I'm a total noob. But I fugured this is actually so easy, total beginners might give it a shot, thus it might be a little over explained for some.
 
 This project is a riff on https://github.com/ldab/ESP32-CAM-Picture-Sharing
 Thank you, ldab! (Is there a way to poke/mark users on github?) All prais belongs to you. Your license is included here. 
 
-So far it works with 10 Units - hardware is described for 10. 
+So far the scanner works with 10 Units - hardware is described for 10. 
 
-Little disclaimer: I'm a total noob. But I fugured this is actually so easy, total beginners might give it a shot, so it might be a little over explained for some.
+The original code was slighly changed so:
 
-The code was slighly changed so:
-
-- Units don't sleep
-- exable / dim flash led
-- Image quality max
+- Units don't sleep and are ready to take a picture
+- enable  / dim flash led
+- Image quality set to max
+- image view in BLYNK currently disabled
 
 
 
@@ -57,7 +57,7 @@ Wall outlet ---220V, 10A--- PSU (connector line one/ fist V-, first V+) --- 5V, 
 
 ### Software:
 
-As the original project this was done in PlatformIO for VisualStudio Code. Check out ldab's git for instructions. You might have to update python to its latest version if you get stuck. 
+Likethe original project this was done in PlatformIO for VisualStudio Code. Check out ldab's git for instructions. You might have to update python to its latest version if you get stuck. 
 (Its rather buggy, but has its benefits (intellisense)).
 
 FTP Server: 
@@ -66,7 +66,6 @@ Windows users might want to try fileZilla server or other free ftp server softwa
 Linux... Well you're on linux, you'll figure something out, I guess...
 
 Photogrammetry Software: 
-
 My software of choise is reality capture. It comes at 370$ for indie devs but is free for students.
 There is also a ton of free other sofware - google will help you out.
 
