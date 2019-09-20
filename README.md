@@ -36,7 +36,7 @@ The code was slighly changed so:
 
 ## Cables: Take care which cables you use from mains to psu and psu to connector. All elements like switches have to be rated for the amps you use
 
-Connector: You need some high amp connector that doesnt go poof. I used a XT60.
+## Connector: You need some high amp connector that doesnt go poof. I used a XT60.
 
 <img src="ESP%203D-Scanner/pics/IMG_2613.jpg" width="800">
 
