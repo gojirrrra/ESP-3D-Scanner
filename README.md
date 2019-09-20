@@ -26,6 +26,8 @@ FTDI-Programmer
 
 Power supply: 5V,  20A <- seems overkill but keeps room for ~20 units and overhead
 
+cardboard or similar: 60cm by 
+
 <img src="ESP%203D-Scanner/pics/IMG_2611%202.jpg" width="600">
 
 20+ dupont cables female to female preferably in red and black
@@ -36,9 +38,17 @@ Cables: Take care which cables you use from mains to psu and psu to connector. A
 
 Connector: You need some high amp connector that doesnt go poof. I used a XT60.
 
+
+<img src="ESP%203D-Scanner/pics/IMG_2613.jpg" width="800">
+
 Test code with one. If it works, this is wiring for 10 Units:
 
+Arrange all units on the cardboard. 
+
+<img src="ESP%203D-Scanner/pics/IMG_2612.jpg" width="800">
+
 Wall outlet ---220V, 10A--- PSU (connector line one/ fist V-, first V+) --- 5V, 10A --- Connector --- (solder 10 dupont cables to each ground and power of the connector.) single dupont connecton --- ESP
+
 
 
 ### Software:
