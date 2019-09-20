@@ -54,7 +54,8 @@ Linux... Well you're on linux, you'll figure something out, I guess...
 
 ### Blynk:
 
-You can clone the setup via this qr code (https://github.com/Schaggo/ESP-3D-Scanner/blob/master/ESP%203D-Scanner/pics/3d_SCANNER%20BLYNK.PNG)
+You can clone the setup via this qr code 
+![BLYNK CLONE](https://github.com/Schaggo/ESP-3D-Scanner/blob/master/ESP%203D-Scanner/pics/3d_SCANNER%20BLYNK.PNG)
 - Download the BLYNK app to your smartphone
 - Open a new project and add a Real Time Clock, a button and a slider.
 - in your project settings setup 10 devices (All ESP32 Dev Board, connection type WiFi)
