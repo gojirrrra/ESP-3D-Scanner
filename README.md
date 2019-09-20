@@ -57,7 +57,7 @@ Linux... Well you're on linux, you'll figure something out, I guess...
 
 You can clone the setup via this qr code 
 <img scr="pics/3d_SCANNER%20BLYNK.PNG">
-<img src="pics/3d_SCANNER%20BLYNK.PNG">
+<img src="ESP%203D-Scanner/pics/3d_SCANNER%20BLYNK.PNG">
 - Download the BLYNK app to your smartphone
 - Open a new project and add a Real Time Clock, a button and a slider.
 - in your project settings setup 10 devices (All ESP32 Dev Board, connection type WiFi)
