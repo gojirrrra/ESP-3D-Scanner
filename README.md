@@ -34,7 +34,7 @@ cardboard or similar: 60cm by >20cm
 
 # !!! Be aware! If you use wrong cables you might burn down your house! 5v seems harmless but the amps arent! Go and ask an adult like me ;)!!!
 
-Cables: Take care which cables you use from mains to psu and psu to connector. All elements like switches have to be rated for the amps you use
+## Cables: Take care which cables you use from mains to psu and psu to connector. All elements like switches have to be rated for the amps you use
 
 Connector: You need some high amp connector that doesnt go poof. I used a XT60.
 
@@ -49,6 +49,10 @@ Arrange all units on the cardboard.
 <img src="ESP%203D-Scanner/pics/IMG_2612.jpg" width="800">
 
 Wall outlet ---220V, 10A--- PSU (connector line one/ fist V-, first V+) --- 5V, 10A --- Connector --- (solder 10 dupont cables to each ground and power of the connector.) single dupont connecton --- ESP
+
+
+<img src="ESP%203D-Scanner/pics/IMG_2614.jpg" width="800">
+
 
 
 ### Software:
