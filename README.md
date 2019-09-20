@@ -155,5 +155,5 @@ You should see files appearing at your set location with module number and times
 
 
 
-Special thanks to u/lost_electron! I think he saved my life. See "!!!Be aware..."
+# Special thanks to u/lost_electron! I think he saved my life. See "!!!Be aware..."
 
