@@ -124,15 +124,22 @@ String pic_name = "Desktop/SCAN/Module1 -"; // example for folder corresponding 
  
 - Change filename and auth when uploading code according to unit
 
-You're done.
-Upload the code to the ESP, start FTP Server and Blynk, hit the button in the app. You should see a file at your set location with a timestamp in its name. Wait till the file size stops increasing. Check the picture for artifacts and errors.
+- Upload the code to the ESP
+
+- Start FTP Server 
+
+- Start Blynk and hit the button in the app. 
+
+You should see files appearing at your set location with module number and timestamp in its name. Wait till the file size stops increasing. Check the pictures for artifacts and errors.
+
+Shove the files in you photogrammetry software and see what happens.
 
 ## TODO: 
 
 - Energy optimisation. The ESP's are a little greedy right now.
 
 - Prepare the project for higher unit count:
-  Trigger camera capture with physical button - then log 10 units into wifi and upload - wait - the next 10
+  Trigger camera capture with physical button - then log 10 units into wifi - upload - logout - the next 10
   
 - Find a better solution to dim the onboard flash LED on pin4. It works but it is not really practical. The lowest level is still way too bright.
 
