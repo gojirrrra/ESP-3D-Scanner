@@ -1,6 +1,6 @@
 # ESP-3D-Scanner
 ### Proof of concept for an array of ESP32's used as a photogrammetry 3D-Scanner
-Little disclaimer: I'm a total noob. But I fugured this is actually so easy, total beginners might give it a shot, thus it might be a little over explained for some.
+Little disclaimer: I'm a total noob. But I figured this is actually so easy, other total beginners might give it a shot, thus it might be a little over explained for some.
 
 This project is a riff on https://github.com/ldab/ESP32-CAM-Picture-Sharing
 Thank you, ldab! (Is there a way to poke/mark users on github?) All prais belongs to you. Your license is included here. 
