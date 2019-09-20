@@ -2,6 +2,7 @@
 Proof of concept for an array of ESP32's used as a photogrammetry 3D-Scanner
 
 This project is a riff on https://github.com/ldab/ESP32-CAM-Picture-Sharing
+Thank you, ldab! (Is there a way to poke/mark users on github?) 
 
 So far it works with 10 Units - hardwawre is described for 10
 
