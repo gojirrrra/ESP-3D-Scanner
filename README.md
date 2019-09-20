@@ -136,7 +136,7 @@ String pic_name = "Desktop/SCAN/Module1 -"; // example for folder corresponding 
 
 - Start FTP Server 
 
-- Bend the Cardbord slightly, so each camera is ponted at a diggerent angle towards you (or to object you want to scan)
+- Bend the Cardbord slightly, so each camera is ponted at a different angle towards you (or to object you want to scan)
 
 - Start Blynk and hit the button in the app. 
 
