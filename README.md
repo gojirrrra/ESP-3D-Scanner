@@ -128,13 +128,19 @@ String pic_name = "Desktop/SCAN/Module1 -"; // example for folder corresponding 
 
 - Upload the code to the ESP
 
+## Testing
+
+- Power the system
+
 - Start FTP Server 
+
+- Bend the Cardbord slightly, so each camera is ponted at a diggerent angle towards you (or to object you want to scan)
 
 - Start Blynk and hit the button in the app. 
 
 You should see files appearing at your set location with module number and timestamp in its name. Wait till the file size stops increasing. Check the pictures for artifacts and errors.
 
-Shove the files in you photogrammetry software and see what happens.
+- Shove the files in you photogrammetry software and see what happens.
 
 ## TODO: 
 
