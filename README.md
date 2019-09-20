@@ -53,35 +53,37 @@ Instructions:
 
 Blynk:
 
--Download the BLYNK app to your smartphone
--Open a new project and add a Real Time Clock, a button and a slider.
--in your project settings setup 10 devices (All ESP32 Dev Board, connection type WiFi)
--add all devices to a tag // if you later add devices add them to the tag
--email yourself all auth tokens for the 10 decives
+- Download the BLYNK app to your smartphone
+- Open a new project and add a Real Time Clock, a button and a slider.
+- in your project settings setup 10 devices (All ESP32 Dev Board, connection type WiFi)
+- add all devices to a tag // if you later add devices add them to the tag
+- email yourself all auth tokens for the 10 decives
 
--Change the RTC to your locations time zone
--Change the Button output to V5 with mode push with target device = tag
--Change slider to V10 with range from 0 to 4 // this might change in later versions
+- Change the RTC to your locations time zone
+- Change the Button output to V5 with mode push with target device = tag
+- Change slider to V10 with range from 0 to 4 // this might change in later versions
 
 Code:
 
--Set char auth[] for each token created in BLYNK
--Fill in your FTP Server and WiFi credentials
--Set the Filename (line 77) according to the folder structure of your ftp.
+- Set char auth[] for each token created in BLYNK
+- Fill in your FTP Server and WiFi credentials
+- Set the Filename (line 77) according to the folder structure of your ftp.
+
  It makes sense to name the file according to your unit number. Some modules might have connection issues or a smudge on the lens...
--Change filename and auth when uploading code according to unit
+ 
+- Change filename and auth when uploading code according to unit
 
 You're done.
 Upload the code to the ESP, start FTP Server and Blynk, hit the button in the app. You should see a file at your set location with a timestamp in its name. Wait till the file size stops increasing. Check the picture for artifacts and errors.
 
 TODO: 
 
--Energy optimisation. The ESP's are a little greedy right now.
+- Energy optimisation. The ESP's are a little greedy right now.
 
--Prepare the project for higher unit count:
+- Prepare the project for higher unit count:
   Trigger camera capture with physical button - then log 10 units into wifi and upload - wait - the next 10
   
--Find a better solution to dim the onboard flash LED on pin4. It works but it is not really practical. The lowest level is still way too bright.
+- Find a better solution to dim the onboard flash LED on pin4. It works but it is not really practical. The lowest level is still way too bright.
 
 
 
