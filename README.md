@@ -32,7 +32,7 @@ cardboard or similar: 60cm by >20cm
 
 
 
-!!! Be aware! If you use wrong cables you might burn down your house! 5v seems harmless but the amps arent! Go and ask an adult like me ;)!!!
+# !!! Be aware! If you use wrong cables you might burn down your house! 5v seems harmless but the amps arent! Go and ask an adult like me ;)!!!
 
 Cables: Take care which cables you use from mains to psu and psu to connector. All elements like switches have to be rated for the amps you use
 
