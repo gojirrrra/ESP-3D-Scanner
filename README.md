@@ -52,6 +52,7 @@ Linux... Well you're on linux, you'll figure something out, I guess...
 Instructions:
 
 Blynk:
+
 -Download the BLYNK app to your smartphone
 -Open a new project and add a Real Time Clock, a button and a slider.
 -in your project settings setup 10 devices (All ESP32 Dev Board, connection type WiFi)
@@ -63,6 +64,7 @@ Blynk:
 -Change slider to V10 with range from 0 to 4 // this might change in later versions
 
 Code:
+
 -Set char auth[] for each token created in BLYNK
 -Fill in your FTP Server and WiFi credentials
 -Set the Filename (line 77) according to the folder structure of your ftp.
@@ -73,6 +75,7 @@ You're done.
 Upload the code to the ESP, start FTP Server and Blynk, hit the button in the app. You should see a file at your set location with a timestamp in its name. Wait till the file size stops increasing. Check the picture for artifacts and errors.
 
 TODO: 
+
 -Energy optimisation. The ESP's are a little greedy right now.
 
 -Prepare the project for higher unit count:
