@@ -20,13 +20,13 @@ The code was slighly changed so:
 
 ### Hardware: 
 
-ESP-32s with OV2640 Cam (AI Thinker) 
+10x ESP-32s with OV2640 Cam (AI Thinker) 
 
-FTDI-Programmer 
+1x FTDI-Programmer 
 
-Power supply: 5V,  20A <- seems overkill but keeps room for ~20 units and overhead
+1x Power supply: 5V,  20A <- seems overkill but keeps room for ~20 units and overhead
 
-cardboard or similar: 60cm by >20cm 
+1x Cardboard or similar: 60cm by >20cm 
 
 <img src="ESP%203D-Scanner/pics/IMG_2611%202.jpg" width="600">
 
